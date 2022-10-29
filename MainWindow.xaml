@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="Calculadora de calorías de mantenimiento" Height="300" Width="500">
+        Title="Maintenance Calories Counter" Height="250" Width="400"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
     <Grid>
-
+        <TextBlock x:Name="AppTitle" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="26" FontWeight="Bold" Foreground="Black" Margin="0,60,0,0">
+                Maintenance Calories Counter
+        </TextBlock>
+        <Button Height="35" Width="100" Background="#292b2c" Foreground="White" VerticalAlignment="Bottom" Margin="40" Click="Button_Click">
+            Comenzar
+        </Button>
     </Grid>
 </Window>
