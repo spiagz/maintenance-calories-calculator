@@ -27,7 +27,7 @@ namespace WpfApp1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            AppPage main = new();
+            UserControl1 main = new();
             this.Content = main;
         }
     }
